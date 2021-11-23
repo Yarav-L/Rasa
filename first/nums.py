@@ -1,12 +1,15 @@
 def plus(a, b):
-    return a+b
+    return a + b
 
-text = 'new text'
 
-def minus(a,b):
-    return a-b
+def minus(a, b):
+    return a - b
 
-print(minus(5,2))
+
+def multi(a, b):
+    return a * b
+
+
+print(multi(10, 10))
+print(minus(5, 2))
 print(plus(2, 2))
-
-
